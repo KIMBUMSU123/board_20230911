@@ -84,8 +84,8 @@
                 </c:when>
                 <c:otherwise>
                     <li class="page-item">
-                        <a class="page-link" href="/board/list?page=${paging.page+1}&q=${q}&type=${type}">[다음]</a>
-                    </li>
+                        <a class="page-link" href="/board/list?page=$&q=${q}&type=${type}">[다음]</a>
+                    </li>{paging.page+1}
                 </c:otherwise>
             </c:choose>
         </ul>
