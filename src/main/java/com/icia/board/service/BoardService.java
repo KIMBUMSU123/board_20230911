@@ -44,7 +44,7 @@ public class BoardService {
                 // 파일만 따로 가져오기
                 // MultipartFile boardFile = boardDTO.getBoardFile();
                 // 파일 이름 가져오기
-                String originalFilename = boardFile.getOriginalFilename();
+                    String originalFilename = boardFile.getOriginalFilename();
                 System.out.println("originalFilename = " + originalFilename);
                 // 저장용 이름 만들기
                 System.out.println(System.currentTimeMillis());
